@@ -1017,7 +1017,7 @@ values = [
 def sort_values(values_list):
     sorted_values = sorted(values_list)
     mode_value = statistics.mode(sorted_values)
-    print(mode_value)
+    print("mode values", mode_value)
 
 
 sort_values(values)
